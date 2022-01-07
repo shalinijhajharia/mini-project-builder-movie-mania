@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(211, 210, 210);
+    color: black;
+    width: 100%;
+    padding: 20px;
+    margin: none;
+}
+#tv{
+    background-color: rgb(211, 210, 210);
+
+    height: 70px;
+    width: 100px;
+}
+.header>div{
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.moviegrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:20px;
+    background-color: rgb(92, 92, 92);
+    padding: 20px;
+    
+}
+.griditem{
+    background-color: white;
+    border:none;
+    text-align:start;
+    padding: 20px;
+}
+.item{
+    background-color: white;
+    border:none;
+    text-align:start;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 50px;
+}
+iframe{
+    margin-top: 40px;
+    width: 650px;
+    height: 500px;
+    margin-left: 130px;
+    align-self: center;
+    margin-left: 450px;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.date{
+    font-size: 12px;
+    color:rgb(168, 168, 168);
+}
+i{
+    margin: 10px;
+}
+.poster{
+    align-self: center;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.logo>div{
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;  
+}
+.buttons>div{
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+#dd1{
+    background-color: rgb(211, 210, 210);
+    color: black;
+    border: none;
+    font-size: 30px;
+    font-weight:lighter;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
